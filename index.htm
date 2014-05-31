@@ -18,12 +18,19 @@
     <![endif]-->
   </head>
   <body>
-     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+     <div class="navbar navbar-inverse navbar-static-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
           <a class="navbar-brand" href="./">gamedach</a>
         </div>
         
+        <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="./">Home</a></li>
             <li><a href="./links.htm">Links</a></li>
@@ -32,10 +39,11 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a href="./about.htm">Über</a></li>
           </ul>
+        </div><!-- /.nav-collapse -->
       </div>
     </div>
     
-    <div class="container" style="margin-top:80px">
+    <div class="container">
         <div class="text-center">
             <img style="margin:0 auto;" src="img/logo.png" />
             <h1>dies ist gamedach</h1>
